@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+
+<div class="pow container">
+  <h1>Login Page</h1>
+
+  <div class="row">
+    <div class="col-md-4">
+      <form action="/login" method="POST">
+        <div class="formgroup">
+          <label class="form-label">Username </label>
+          <input class="form-control" type="text" name="username" />
+        </div>
+        <div class="formgroup">
+          <label class="form-label"> Password </label>
+          <input class="form-control" type="password" name="password" />
+        </div>
+        <div class="marginforbtn">
+          <button class="btn btn-primary">Login</button>
+          <a href="/register" class="btn btn-primary">Register</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
